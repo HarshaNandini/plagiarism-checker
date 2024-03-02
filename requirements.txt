@@ -1,0 +1,9 @@
+download
+pypdf
+numpy
+torch
+tqdm
+sentence_transformers
+nltk
+scikit-learn
+streamlit
