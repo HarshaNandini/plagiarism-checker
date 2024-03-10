@@ -65,7 +65,7 @@ embedding_model = SentenceTransformer((DIRNAME/ 'st_model').__str__())
 
 # initialize web page using streamlit
 # set a suitable title for the webpage
-st.title("DLBC Plagarism Checker")
+st.title("DLBC Plagiarism Checker")
 
 # write necessary functions to perform all the project related activities
 # a function to extract text from PDF file
