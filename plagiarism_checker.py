@@ -65,7 +65,7 @@ embedding_model = SentenceTransformer((DIRNAME/ 'st_model').__str__())
 
 # initialize web page using streamlit
 # set a suitable title for the webpage
-st.title("DLBC Plagarism Checker")
+st.title("DLBC Plagiarism Checker")
 
 # write necessary functions to perform all the project related activities
 # a function to extract text from PDF file
@@ -316,7 +316,7 @@ else:
         button = st.button("Submit source")
         if button:
             file_name = download_file(url)
-            st.info(f"File downloaded...")
+            st.success(f"File downloaded...")
             add_source_embedding()
     else:
         file = st.file_uploader("Upload sourse PDF",type= ["pdf"])
